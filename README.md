@@ -1,5 +1,3 @@
-This is the repository of FSE23 submission #729.
-
 ## Environment setup
 ### Package installation
 + carla: 0.9.12
