@@ -1,0 +1,16 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: speed_limit_sign
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: car
+road_network:
+- speed_limit_sign
+criteria:
+  - decelerate

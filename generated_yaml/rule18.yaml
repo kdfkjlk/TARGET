@@ -1,0 +1,16 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: roundabout
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: null
+road_network:
+- roundabout
+criteria:
+  - decelerate

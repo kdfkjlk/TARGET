@@ -1,0 +1,17 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: crosswalk
+  other_actor:
+    behavior:
+    - travel
+    position_relation: in
+    position_target: crosswalk
+    type: pedestrian
+road_network:
+- crosswalk
+criteria:
+  - give_way

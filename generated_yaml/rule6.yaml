@@ -1,0 +1,16 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: null
+    position_target: null
+  other_actor:
+    behavior:
+    - change_lane_right
+    position_relation: front
+    position_target: ego_vehicle
+    type: car
+road_network: null
+criteria:
+  - give_way

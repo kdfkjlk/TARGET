@@ -1,0 +1,17 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: crosswalk
+  other_actor:
+    behavior:
+    - static
+    position_relation: front
+    position_target: ego_vehicle
+    type: car
+road_network:
+- crosswalk
+criteria:
+  - give_way

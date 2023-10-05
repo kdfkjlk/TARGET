@@ -1,0 +1,15 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior: null
+    position_relation: behind
+    position_target: do_not_enter_sign
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: null
+road_network:
+- do_not_enter_sign
+criteria:
+  -do_not_enter

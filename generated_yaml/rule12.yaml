@@ -1,0 +1,16 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - turn_right
+    position_relation: behind
+    position_target: no_turn_left_sign
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: null
+road_network:
+- no_turn_left_sign
+criteria:
+  - no_turn_left

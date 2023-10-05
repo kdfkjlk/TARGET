@@ -1,0 +1,16 @@
+environment:
+- night
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: null
+    position_target: null
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: car
+road_network: null
+criteria:
+  - decelerate

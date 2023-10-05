@@ -1,0 +1,15 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: traffic_light
+  other_actor:
+    behavior: null
+    position_relation: null
+    position_target: null
+    type: null
+road_network:
+- traffic_light
+criteria:

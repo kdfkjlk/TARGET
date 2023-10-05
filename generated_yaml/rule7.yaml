@@ -1,0 +1,17 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: roundabout
+  other_actor:
+    behavior:
+    - change_lane_left
+    position_relation: in
+    position_target: roundabout
+    type: car
+road_network:
+- roundabout
+criteria:
+  - give_way

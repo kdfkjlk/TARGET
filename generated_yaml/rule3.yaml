@@ -1,0 +1,17 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: behind
+    position_target: t-intersection
+  other_actor:
+    behavior:
+    - turn_right
+    position_relation: front
+    position_target: ego_vehicle
+    type: car
+road_network:
+- t-intersection
+criteria:
+  - give_way

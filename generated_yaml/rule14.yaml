@@ -1,0 +1,16 @@
+environment: null
+participant:
+  ego_vehicle:
+    behavior:
+    - travel
+    position_relation: null
+    position_target: null
+  other_actor:
+    behavior:
+    - travel
+    position_relation: front
+    position_target: ego_vehicle
+    type: car
+road_network:
+- solid_line
+criteria:
